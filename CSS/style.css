@@ -1,0 +1,79 @@
+*{
+
+    font-family: sans-serif;
+}
+
+nav{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+
+img{
+    width: 10%;
+    margin: 0.5rem;
+    size: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+.navBar{
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    align-items: center;
+}
+
+.adminNav{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+    color: black;
+}
+
+.SearchIcon, .ShoppingIcon, .UserIcon{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+li{
+    margin: 20px
+}
+
+p{
+    margin: 5px;
+    font-size: 11px;
+}
+
+section{
+    width: 80%;
+    padding: none;
+    
+}
+
+.topSection {
+    color: #de99ff;
+    background: black;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    
+}
+
+
+
+.Privat,.Företag,.Fastighetsägare{
+    display: flex;
+    flex-direction: row;  
+}
+
